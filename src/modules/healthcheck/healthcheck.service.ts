@@ -1,6 +1,6 @@
 import { Injectable } from '@nestjs/common';
-import { Healthcheck } from '../types/healthcheck.type';
-import { version } from '../../package.json';
+import { Healthcheck } from '../../types/healthcheck.interface';
+import { version } from '../../../package.json';
 
 @Injectable()
 export class HealthcheckService {
