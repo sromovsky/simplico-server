@@ -2,7 +2,7 @@
     "name": "simplico-server",
     "version": "0.0.1",
     "description": "",
-    "author": "",
+    "author": "Tomáš Šromovský",
     "private": true,
     "license": "UNLICENSED",
     "scripts": {
