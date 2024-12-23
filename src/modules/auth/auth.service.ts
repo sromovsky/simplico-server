@@ -34,7 +34,7 @@ export class AuthService {
 
         if (user && (await bcrypt.compare(loginData.password, user.password))) {
             const payload = { username: user.username };
-            return this.jwtService.sign(payload);
+            return { token: this.jwtService.sign(payload) };
         }
 
         throw new UnauthorizedException();
